@@ -1,3 +1,12 @@
+# Add files
+retirement_info.csv
+manager_info.csv
+emp_info.csv
+emp_count_by_dept.csv
+dept_info.csv
+queries.sql
+Employee_Challenge_starter_code.sql
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
