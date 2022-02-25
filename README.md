@@ -1,6 +1,6 @@
 <!-- Overview of the analysis: Explain the purpose of this analysis.-->
 ## Overview
-The purpose of this project is to build an entity relationship diagram utilizing company Pewlett_Hackard's employee information as csv files, then query the relational database system PosgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as csv to be saved. Data of interest include
+The purpose of this project is to build an entity relationship diagram (ERD) utilizing company Pewlett_Hackard's employee information as csv files, then query the relational database system PosgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as csv to be saved. Data of interest include
 
 - Position titles of current employees per position title across all departments born between 1952 through 1955 that are entering retirement age,
 
@@ -15,6 +15,11 @@ Software: PosgreSQL 11.15, Python 3.9.7, Visual Studio Code (VSCode) 1.63.2
 
 <!-- Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.-->
 ## Results
+- A screenshot of the ERD is shown below.
+    
+    ![EmployeeDB](https://user-images.githubusercontent.com/96349090/155703088-ec5e1e94-bd1c-436f-8eab-b6d6d66df4d6.png)
+
+    
 - A total of 7 position titles have current employees that are reaching retirement age.
 
 - Titles
