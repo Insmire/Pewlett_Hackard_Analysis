@@ -1,6 +1,6 @@
 <!-- Overview of the analysis: Explain the purpose of this analysis.-->
 ## Overview
-The purpose of this project is to build an entity relationship diagram (ERD) utilizing company Pewlett_Hackard's employee information as csv files, then query the relational database system PosgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as csv to be saved. Data of interest include
+The purpose of this project is to assist the analysts of Pewlett Hackard to elucidate the amount and positions of employees qualified for their retirement package. To this end, I build an employee database from six comma-separated values (CSV) files using an entity relationship diagram (ERD), then query the relational database system PostgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as CSV files to be reported to the Human Resources Department. Data of interest include
 
 - Position titles of current employees per position title across all departments born between 1952 through 1955 that are entering retirement age,
 
@@ -8,10 +8,7 @@ The purpose of this project is to build an entity relationship diagram (ERD) uti
 
 - Current employees born in 1965 who are eligible for a mentorship program to train new hires once employees retire.
 
-## Resources
-Data source: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
-
-Software: PosgreSQL 11.15, Python 3.9.7, Visual Studio Code (VSCode) 1.63.2
+---
 
 <!-- Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.-->
 ## Results
@@ -40,21 +37,18 @@ Software: PosgreSQL 11.15, Python 3.9.7, Visual Studio Code (VSCode) 1.63.2
     - 1,090 Assistant Engineers
     - 2 Managers
 
-- Table or further information may be found in retiring_titles.csv.
-
-    A screenshot of table retiring_titles is shown below.
+- A screenshot of table retiring_titles is shown below.
     
     ![retiring_titles](https://user-images.githubusercontent.com/96349090/155700975-0d2b0483-545c-4159-a3f1-25e9d07f12a5.png)
 
 
 - A total of 1,549 current employees are eligible for the mentorship program.
 
-- Table or further information may be found in mentorship_eligibility.csv.
-  
-    A screenshot of table mentorship_eligibility is shown below.
+- A screenshot of the table mentorship_eligibility is shown below.
     
     ![mentorship_eligibility](https://user-images.githubusercontent.com/96349090/155701062-9ee47992-45f8-4c86-80d9-e138107fbafc.png)
 
+---
 
 <!-- Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
     - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
@@ -64,22 +58,18 @@ Based on the provided data, one may conclude the following:
 
 - A total of 7 titles which sum up to 72,458 total employees are reaching retirement age. This implies that an average of approximately 10,351 vacancies per title will need to be filled.
 
-- Only 1,549 employees are considered to be eligible for the mentorship program therefore unless one mentor is assigned to multiple new-hires, the number is not even sufficient for mentoring new Senior Engineers.
+- Only 1,549 employees are considered to be eligible for the mentorship program therefore unless one mentor is assigned to multiple new hires, the number is insufficient even for only mentoring Senior Engineers positions.
 
 Through further querying, one may also notice:
 - No manager is considered eligible for mentorship even if two manager vacancies are anticipated to appear.
 
-    Table or further information may be found in mentor_titles.csv.
-    
     A screenshot of table mentor_titles is shown below.
     
     ![mentor_titles](https://user-images.githubusercontent.com/96349090/155701162-d07a8bd6-6966-4aee-acb1-b23e183ed8eb.png)
 
 
-- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who is hired on July 27, 2002. This implies that all potential mentors have at least ten years' experience working with Pewlett_Hackard and likely will be excellent mentors.
+- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who is hired on July 27, 2002. This implies that all potential mentors have at least ten years of experience working with Pewlett_Hackard and likely will be excellent mentors.
 
-    Table or further information may be found in mentor_from_date.csv.
-    
     A screenshot of table mentor_from_date is shown below.
     
     ![mentor_from_date](https://user-images.githubusercontent.com/96349090/155701299-3747615e-8b7b-4e2b-acda-c08c4aeae8fe.png)
@@ -87,8 +77,13 @@ Through further querying, one may also notice:
 
 - Employees eligible for mentorship have salaries ranging from $40,000 to $114,784, which suggests that Pewlett_Hackard may want to set aside a budget to pay the mentors a reasonable salary.
 
-    Table or further information may be found in mentor_salary.csv.
-    
     A screenshot of table mentor_salary is shown below.
     
     ![mentor_salary](https://user-images.githubusercontent.com/96349090/155701344-27021dc4-0983-4831-b722-d5ccc740c375.png)
+
+---
+
+## Resources
+Data source: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
+
+Tools: PostgreSQL 11.15, Python 3.9.7, Structured Query Language (SQL), pgAdmin, Visual Studio Code (VSCode) 1.63.2
