@@ -87,3 +87,11 @@ Through further querying, one may also notice:
 Data source: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 
 Tools: PostgreSQL 11.15, Python 3.9.7, Structured Query Language (SQL), pgAdmin, Visual Studio Code (VSCode) 1.63.2
+    
+---
+
+### Contact
+
+Email: show.wang94@gmail.com
+
+LinkedIn: [http://bit.ly/3wuUefj](http://bit.ly/3wuUefj)
