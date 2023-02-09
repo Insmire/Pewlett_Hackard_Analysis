@@ -1,12 +1,14 @@
 <!-- Overview of the analysis: Explain the purpose of this analysis.-->
 ## Overview
-The purpose of this project is to assist the analysts of Pewlett Hackard to elucidate the amount and positions of employees qualified for their retirement package. To this end, I build an employee database from six comma-separated values (CSV) files using an entity relationship diagram (ERD), then query the relational database system PostgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as CSV files to be reported to the Human Resources Department. Data of interest include
+The purpose of this project is to elucidate data of interest which include
 
 - Position titles of current employees per position title across all departments born between 1952 through 1955 that are entering retirement age,
 
 - Amount of current employees per position title across all departments born between 1952 through 1955 that are reaching retirement age, and
 
 - Current employees born in 1965 who are eligible for a mentorship program to train new hires once employees retire.
+
+To accomplish these goals I build an employee database from six comma-separated values (CSV) files using an entity relationship diagram (ERD), then query the relational database system PostgreSQL with pgAdmin as its interface to extract data. Extracted data is then exported as CSV files to report to the Human Resources Department. 
 
 ---
 
@@ -17,7 +19,7 @@ The purpose of this project is to assist the analysts of Pewlett Hackard to eluc
     ![EmployeeDB](https://user-images.githubusercontent.com/96349090/155703088-ec5e1e94-bd1c-436f-8eab-b6d6d66df4d6.png)
 
     
-- A total of 7 position titles have current employees that are reaching retirement age.
+- A total of 7 position titles have current employees reaching retirement age.
 
 - Titles
     - Senior Engineer
@@ -28,7 +30,7 @@ The purpose of this project is to assist the analysts of Pewlett Hackard to eluc
     - Assistant Engineer
     - Manager
 
-- Amount of employees of each perspective title that are anticipated to retire
+- Amount of employees of each perspective title that will be retiring:
     - 25,916 Senior Engineers
     - 24,926 Senior Staff
     - 9,285 Engineers
