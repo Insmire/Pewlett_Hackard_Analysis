@@ -86,9 +86,22 @@ Through further querying, one may also notice:
 ---
 
 ## Resources
-Data source: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
+Data source: 
 
-Tools: PostgreSQL 11.15, Python 3.9.7, Structured Query Language (SQL), pgAdmin, Visual Studio Code (VSCode) 1.63.2
+    departments.csv
+    dept_emp.csv
+    dept_manager.csv
+    employees.csv
+    salaries.csv
+    titles.csv
+
+Tools: 
+
+    pgAdmin
+    PostgreSQL 11.15
+    Python 3.9.7
+    Structured Query Language (SQL)
+    Visual Studio Code (VSCode) 1.63.2
     
 ---
 
