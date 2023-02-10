@@ -109,4 +109,4 @@ Tools:
 
 Email: show.wang94@gmail.com
 
-LinkedIn: [http://bit.ly/3wuUefj](http://bit.ly/3wuUefj)
+LinkedIn: [www.linkedin.com/in/s-k-wang](www.linkedin.com/in/s-k-wang)
