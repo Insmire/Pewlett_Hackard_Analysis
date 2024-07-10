@@ -4,7 +4,7 @@ The purpose of this project is to elucidate data of interest which include
 
 - Position titles of current employees per position title across all departments born between 1952 through 1955 that are entering retirement age,
 
-- Amount of current employees per position title across all departments born between 1952 through 1955 that are reaching retirement age, and
+- Number of current employees per position title across all departments born between 1952 through 1955 that are reaching retirement age, and
 
 - Current employees born in 1965 who are eligible for a mentorship program to train new hires once employees retire.
 
@@ -70,14 +70,14 @@ Through further querying, one may also notice:
     ![mentor_titles](https://user-images.githubusercontent.com/96349090/155701162-d07a8bd6-6966-4aee-acb1-b23e183ed8eb.png)
 
 
-- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who is hired on July 27, 2002. This implies that all potential mentors have at least ten years of experience working with Pewlett_Hackard and likely will be excellent mentors.
+- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who is hired on July 27, 2002. This implies that all potential mentors have at least ten years of experience working with Pewlett Hackard and likely will be excellent mentors.
 
     A screenshot of table mentor_from_date is shown below.
     
     ![mentor_from_date](https://user-images.githubusercontent.com/96349090/155701299-3747615e-8b7b-4e2b-acda-c08c4aeae8fe.png)
 
 
-- Employees eligible for mentorship have salaries ranging from $40,000 to $114,784, which suggests that Pewlett_Hackard may want to set aside a budget to pay the mentors a reasonable salary.
+- Employees eligible for mentorship have salaries ranging from $40,000 to $114,784, which suggests that Pewlett Hackard may want to set aside a budget to pay the mentors a reasonable salary.
 
     A screenshot of table mentor_salary is shown below.
     
