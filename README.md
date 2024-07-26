@@ -2,9 +2,9 @@
 ## Overview
 The purpose of this project is to elucidate data of interest which include
 
-- Position titles of current employees per position title across all departments born between 1952 through 1955 that are entering retirement age,
+- Position titles of current employees per position title across all departments born between 1952 and 1955 that are entering retirement age,
 
-- Number of current employees per position title across all departments born between 1952 through 1955 that are reaching retirement age, and
+- Number of current employees per position title across all departments born between 1952 and 1955 that are reaching retirement age, and
 
 - Current employees born in 1965 who are eligible for a mentorship program to train new hires once employees retire.
 
@@ -60,7 +60,7 @@ Based on the provided data, one may conclude the following:
 
 - A total of 7 titles which sum up to 72,458 total employees are reaching retirement age. This implies that an average of approximately 10,351 vacancies per title will need to be filled.
 
-- Only 1,549 employees are considered to be eligible for the mentorship program therefore unless one mentor is assigned to multiple new hires, the number is insufficient even for only mentoring Senior Engineers positions.
+- Only 1,549 employees are considered eligible for the mentorship program therefore unless one mentor is assigned to multiple new hires, the number is insufficient even for only mentoring Senior Engineers positions.
 
 Through further querying, one may also notice:
 - No manager is considered eligible for mentorship even if two manager vacancies are anticipated to appear.
