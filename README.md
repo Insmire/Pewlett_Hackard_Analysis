@@ -70,7 +70,7 @@ Through further querying, one may also notice:
     ![mentor_titles](https://user-images.githubusercontent.com/96349090/155701162-d07a8bd6-6966-4aee-acb1-b23e183ed8eb.png)
 
 
-- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who is hired on July 27, 2002. This implies that all potential mentors have at least ten years of experience working with Pewlett Hackard and likely will be excellent mentors.
+- Of all employees eligible for mentorship, the most recently hired is Oscar Oppitz, employee number 418247, title Senior Staff, who was hired on July 27, 2002. This implies that all potential mentors have at least ten years of experience working with Pewlett Hackard and likely will be excellent mentors.
 
     A screenshot of table mentor_from_date is shown below.
     
