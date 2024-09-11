@@ -107,6 +107,6 @@ Tools:
 
 ### Contact
 
-Email: show.wang94@gmail.com
+Email: kate.wang00001@gmail.com
 
-LinkedIn: [showkatewang](http://linkedin.com/in/showkatewang)
+LinkedIn: [katewang01](http://linkedin.com/in/katewang01)
